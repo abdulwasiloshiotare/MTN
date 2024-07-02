@@ -1,0 +1,10 @@
+.class .class1 p{
+    color: red;
+    background-color: blue;
+    font-size: large;
+}
+.class2>p{
+   color: grey;
+   font-size: 50px; 
+}
+.class+

@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    grid-template-rows: 90px 120px ;
+  }
+.grid{
+    background-color:blue;
+    border: 3px solid red;
+    color:white;
+    /* height: 10px; */
+
+}
+@media only screen and (min-witdth: 850px){
+    .body{
+        background-color: aqua;
+    }
+}
+@media only screen and (max-width: 550px){
+    body{
+        background-color: rebeccapurple;
+    }
+}
+img{
+    height: 86px;
+    width: 95px;
+}
+@media only screen and (min-width: 600px){
+    body{
+        background-color: green;
+    }
+}
+@media only screen and (max-width: 600px){
+    body{
+        background-color: blue;
+    }
+
+}
+img{
+    height: 85px;
+    width: 365px;
+}
