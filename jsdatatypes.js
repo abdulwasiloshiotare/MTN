@@ -53,9 +53,15 @@ function validateData() {
     if (username.lrnght < 5) {
         alert("username must contain atleast 5 chars!");
 
-    if (passzordvalue.lenght < 7) {
+    if (passwordvalue.lenght < 7) {
         alert("password lenght is too small!");
+    }
+    if (!email.includes(mustEXit)) {
+        alert("Emil must includes @");
+    }
+
 }
+function changingvalue() {
 
 
 
